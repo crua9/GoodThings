@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="help_key"
+        android:summary="Application help"
+        android:title="How To" />
+
+    <Preference
+        android:key="contact_key"
+        android:title="Contacts"
+        android:summary="craigbennettii@techreviewsandhelp.com"/>
+
+
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Good Day</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dropbox_app_scheme">db-burrkgr4gqibicx</string>
+    <string name="dropbox_app_key">burrkgr4gqibicx</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_info">Information</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_notifications">Show notifications</string>
+    <string name="pref_summary_notifications">Show notification at the end of the day</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="sharing_string">I have %1$s good things happened with me! I have made %2$s good deals for others! I have %3$s notes how to make my days better! Can you better? %4$s</string>
+    <string name="sharing_in_notification">This %1$s: I have %2$s good things happened with me! I have made %3$s good deals for others! I have %4$s notes how to make my days better! Can you better? %5$s</string>
+    <string name="notification_with_period">Your good statistics for a %1$s:</string>
+    <string name="link">http://play.google.com/</string>
+
+    <string name="how_to_message1">In this app you can enter every good thing, happened with you during the day.\n\nWhen you click the SAVE button, your notes saves to apps datebase and to online service like DropBox or GoogleDrive.\n\nIf you want to use online saving, you should set up online services at Setting menu Data and Sync.\n\nThe app can remember to enter everyday notes. If you want to use this feature, your should turn on notifications as Settings menu Notifications</string>
+</resources>

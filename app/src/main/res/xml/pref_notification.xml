@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.cgollner.unclouded.preferences.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="notification_key"
+        android:title="@string/pref_title_notifications"
+        android:summary="@string/pref_summary_notifications"/>
+
+    <com.techreviewsandhelp.goodthings.TimePreference
+        android:key="end_of_day"
+        android:title="The end of the day"
+        android:summary="Time of notifications at the end of the day"
+        android:dependency="notification_key"/>
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:dependency="notification_key"
+        android:key="notifications_new_message_ringtone"
+        android:ringtoneType="notification"
+        android:title="@string/pref_title_ringtone" />
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <com.cgollner.unclouded.preferences.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:dependency="notification_key"
+        android:key="notifications_new_message_vibrate"
+        android:title="@string/pref_title_vibrate" />
+
+</PreferenceScreen>

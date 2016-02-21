@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.cgollner.unclouded.preferences.SwitchPreferenceCompat
+        android:key="dropbox_key"
+        android:title="DropBox sync"
+        android:summary="Turn on/off synchronization with your DropBox"
+        android:defaultValue="false"/>
+
+    <com.cgollner.unclouded.preferences.SwitchPreferenceCompat
+        android:key="google_drive_key"
+        android:title="Google Drive sync"
+        android:summary="Turn on/off synchronization with your GoogleDrive"
+        android:defaultValue="false"/>
+
+    <PreferenceCategory
+        android:title="SD card">
+        <Preference
+            android:key="save_to_sd_key"
+            android:title="Save backup"
+            android:summary="Save the database to SD card"/>
+        <Preference
+            android:key="load_from_sd_key"
+            android:title="Load backup"
+            android:summary="Load the database from SD card"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="DropBox">
+        <Preference
+            android:key="save_to_drop_key"
+            android:title="Save backup"
+            android:summary="Save the database to DropBox app folder"/>
+        <Preference
+            android:key="load_from_drop_key"
+            android:title="Load backup"
+            android:summary="Load the database from DropBox app folder"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Google Drive">
+        <Preference
+            android:key="save_to_drive_key"
+            android:title="Save backup"
+            android:summary="Save the database to Google Drive app folder"/>
+        <Preference
+            android:key="load_from_drive_key"
+            android:title="Load backup"
+            android:summary="Load the database from Google Drive app folder"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
