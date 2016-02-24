@@ -12,7 +12,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final String TABLE_NAME = "good_things";
     public static final String DATE = "date";
     public static final String THINGS = "things";
-    public static final String DEALS = "deals";
+    public static final String DEALS = "deeds";
     public static final String BETTER = "better";
 
     public DbHelper(Context context)
