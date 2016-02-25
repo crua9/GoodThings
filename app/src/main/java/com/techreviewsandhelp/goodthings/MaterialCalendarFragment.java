@@ -76,7 +76,7 @@ public class MaterialCalendarFragment extends Fragment {
         //--------------Coins-----------------------
         goodCoins = new ArrayList<>();
         goodCoins.add((TextView)rootview.findViewById(R.id.good_count));
-        goodCoins.add((TextView)rootview.findViewById(R.id.deeds_count));
+        goodCoins.add((TextView)rootview.findViewById(R.id.deals_count));
         goodCoins.add((TextView) rootview.findViewById(R.id.better_count));
         GoodThingsTableHelper.refreshAchievements(getContext(), this);
 

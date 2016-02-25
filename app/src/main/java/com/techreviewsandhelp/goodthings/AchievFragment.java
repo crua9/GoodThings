@@ -34,7 +34,7 @@ public class AchievFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_achievements, container, false);
         goodCoins = new ArrayList<>();
         goodCoins.add((TextView)rootView.findViewById(R.id.good_count));
-        goodCoins.add((TextView)rootView.findViewById(R.id.deeds_count));
+        goodCoins.add((TextView)rootView.findViewById(R.id.deals_count));
         goodCoins.add((TextView) rootView.findViewById(R.id.better_count));
         //GoodThingsTableHelper.refreshAchievements(getContext(), this);
 

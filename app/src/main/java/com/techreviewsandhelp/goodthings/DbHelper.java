@@ -12,7 +12,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final String TABLE_NAME = "good_things";
     public static final String DATE = "date";
     public static final String THINGS = "things";
-    public static final String Deeds = "deeds";
+    public static final String DEALS = "deals";
     public static final String BETTER = "better";
 
     public DbHelper(Context context)
@@ -23,7 +23,7 @@ public class DbHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String sqlString = "CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + DATE + " TEXT, " + THINGS + " TEXT, " + Deeds + " TEXT, "
+                + DATE + " TEXT, " + THINGS + " TEXT, " + DEALS + " TEXT, "
                 + BETTER + " TEXT);";
         db.execSQL(sqlString);
         Log.v("dbString", sqlString);
