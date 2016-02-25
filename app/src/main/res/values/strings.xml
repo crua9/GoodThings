@@ -44,7 +44,7 @@
     <string name="sharing_string">I have %1$s good things happened with me! I have done %2$s good deeds for others! I have %3$s notes how to make my days better! Can you better? %4$s</string>
     <string name="sharing_in_notification">This %1$s: I have %2$s good things happened with me! I have made %3$s good deeds for others! I have %4$s notes how to make my days better! Can you better? %5$s</string>
     <string name="notification_with_period">Your good statistics for a %1$s:</string>
-    <string name="link">https://play.google.com/store/apps/details?id=com.techreviewsandhelp.goodthings</string>
+    <string name="link">http://play.google.com/</string>
 
     <string name="how_to_message1">In this app you can enter every good thing, happened with you during the day.\n\nWhen you click the SAVE button, your notes saves to apps datebase and to online service like DropBox or GoogleDrive.\n\nIf you want to use online saving, you should set up online services at Setting menu Data and Sync.\n\nThe app can remember to enter everyday notes. If you want to use this feature, your should turn on notifications as Settings menu Notifications</string>
 </resources>

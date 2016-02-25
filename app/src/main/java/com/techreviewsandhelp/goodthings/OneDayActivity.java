@@ -67,14 +67,14 @@ public class OneDayActivity extends AppCompatActivity {
         recyclerView.setItemAnimator(itemAnimator);
 
         gCount = (TextView)findViewById(R.id.good_count);
-        dCount = (TextView)findViewById(R.id.deals_count);
+        dCount = (TextView)findViewById(R.id.deeds_count);
         bCount = (TextView)findViewById(R.id.better_count);
         refreshCoinsAmount();
     }
 
     public void refreshCoinsAmount(){
         Log.d(LOG_TAG,"refreshing coins");
-        int[] count = GoodThingsTableHelper.getCount(date,DbHelper.DEALS);
+        int[] count = GoodThingsTableHelper.getCount(date,DbHelper.Deeds);
 
         gCount.setText(Integer.toString(count[0]));
         dCount.setText(Integer.toString(count[1]));

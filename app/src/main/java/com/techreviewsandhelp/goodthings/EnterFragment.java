@@ -208,7 +208,7 @@ public class EnterFragment extends Fragment implements View.OnClickListener {
             ContentValues values = new ContentValues();
             values.put(DbHelper.DATE, date);
             values.put(DbHelper.THINGS, thingsText);
-            values.put(DbHelper.DEALS, dealsText);
+            values.put(DbHelper.Deeds, dealsText);
             values.put(DbHelper.BETTER, betterText);
 
             db = GoodThingsTableHelper.getDbInstance(context);
